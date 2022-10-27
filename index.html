@@ -1,0 +1,801 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SM TECH SL</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/7c40190028.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&family=Lato:wght@300&family=Mukta:wght@200&family=Oswald:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body style="overflow-x: hidden;">
+            <div class="navbar">
+                <ul>
+                    <i class="fa-solid fa-bars" id="bar" style="color: white;"></i>
+
+                    <li><a href="index.html" id="active">Home</a></li>
+                    <li><a href="">Our Services</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Join Now</a></li>
+                </ul>
+            </div>
+           <div class="content-container">
+
+                <div class="side-content">
+                    <div class="sidenav">
+                        <i class="fa-solid fa-xmark" id="close"></i>
+                        <ul>
+                            
+                            <li id="active"><a href="#" id="active_a"><i class="fa-solid fa-house"></i>Home</a></li>
+                            <li><a href="#"><i class="fa-solid fa-server"></i>Our Services</a></li>
+                            <li><a href="#"><i class="fa-solid fa-address-card"></i>About Us</a></li>
+                            <li><a href="#"><i class="fa-solid fa-envelope"></i></i></i>Contact Us</a></li>
+                            <li><a href="#"><i class="fa-solid fa-user-plus"></i>Join Now</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="slider blur">
+                    <!-- fade css -->
+                    <div class="myslide fade">
+                        <div class="txt1">
+                            <h1>SM TECHNOLOGIES</h1>
+                            <p>An Experienceable Software Company in SRI LANKA</p>
+                            <button class="slide1_btn">Learn more</button>
+                        </div>
+                        <img src="Images/img1.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    
+                    <div class="myslide fade">
+                        <div class="txt2">
+                            <h1>10 YEARS OF EXCELLENCE</h1>
+                            <p>Giants in Web Development & Designing</p>
+                            <button class="slide2_btn">Our Services</button>
+                        </div>
+                        <img src="Images/img2.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    
+                    <!-- <div class="myslide fade">
+                        <div class="txt3">
+                            <h1>IMAGE 3</h1>
+                            <p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+                            <button class="slide3_btn">Join with us</button>
+                        </div>
+                        <img src="Images/img3.jpg" style="width: 100%; height: 100%;">
+                    </div> -->
+                
+                    <!-- /fade css -->
+                    
+                    <!-- onclick js -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                    <div class="dotsbox" style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+                    </div>
+                    <!-- /onclick js -->
+                </div>
+
+           </div>
+           
+           <div class="blur">
+                <hr class="f-line">
+                <div class="home-about">
+                    <div class="home-about-txt">
+                        <h1>WHO WE ARE?</h1>
+                        <hr class="home-about-hr">
+                        <h2><span class="home-span-txt">TECHNOLOGY </span>COMPANY</h2>
+                        <p>As one of the leading technology companies in Sri Lanka, and as a well-known brand in UK and Australia, our company is driven by its deep passion for designing, building and marketing websites.</p>
+                        <button class="home-about-btn">Learn More</button>
+                    </div>
+                    <div class="home-about-img">
+                        <span class="home-about-square"></span>
+                        <img src="Images/home-about-image.png">
+                        
+                    </div>
+                </div>
+                <div class="mission-vision">
+                    <!-- <div class="mission-vision-content">
+                        <h1>MISSION & VISION</h1>
+                        <div class="mission-vision-btns">
+                            <button class="mission-btn">Mission</button>
+                            <button class="vision-btn">Vision</button>
+                        </div>
+                    </div> -->
+                    <div class="mission-vision-background">
+                        <div class="mission">
+                            <h1>Mission</h1>
+                            <p>We are focused on honing our crafts and bringing everything we have to the table for our clients. Each of us loves what we do and we feel that spirit helps translate into the quality of our work. Working with clients who love their work combines into a fun, wonderful partnership for everyone involved.</p>
+                            <div class="mission-vision-btns">
+                                <button class="mission-slide"><i class="fa-sharp fa-solid fa-angle-left"></i></button>
+                                <button class="vision-slide"><i class="fa-sharp fa-solid fa-angle-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="vision">
+                            <h1>Vision</h1>
+                            <p>The vision of SM TECHNOLOGIES is to be a leader in web designing Sri Lanka and to improve our productivity and business strength. Our try is to be actively updated with the latest trends of web designing as well as the technology used in the IT industry.</p>
+                            <div class="mission-vision-btns">
+                                <button class="mission-slide"><i class="fa-sharp fa-solid fa-angle-left"></i></button>
+                                <button class="vision-slide"><i class="fa-sharp fa-solid fa-angle-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="offer">
+                    <h1>WHAT WE OFFER</h1>
+                    <hr>
+                    <div class="offer_para">
+                        <p>we understand your brand is delicate and most of all unique. So we are passionate on serving your
+                            all digital needs to market your brand.</p> 
+                    </div>
+                        <div class="home-services">
+                            <div class="home-services-box box1">
+                                <div class="offer-h2">
+                                    <div class="offer-h2-div">
+                                        <h2>Web Design & Development</h2>
+                                    </div>
+                                    <img src="Images/web-development.png">
+                                    <p>We are passionate about all things web design-related. We can create a unique user-friendly website that is personalized to your business and includes features such as SS, basic SEO, security, and high-speed performance, all within just 10 working days!</p>
+                                </div>
+                                
+                                <div class="offer-btn">
+                                    <button class="offer-box1-btn">Learn more</button>
+                                </div>
+                            </div>
+                            <div class="home-services-box box2">
+                                <div class="offer-h2">
+                                    <div class="offer-h2-div">
+                                        <h2>Web Domain & Hosting</h2>
+                                    </div>
+                                    <img src="Images/web-hosting.png">
+                                <p>Do you want your site to rank higher on Google search results? We use effective search engine optimization (SEO) strategies when creating website content that includes competitive keywords that will ensure your site appears on top!</p>
+                                </div>
+                                
+                                <div class="offer-btn">
+                                    <button class="offer-box1-btn">Learn more</button>
+                                </div>
+                            </div>
+                            <div class="home-services-box box3">
+                                <div class="offer-h2">
+                                    <div class="offer-h2-div">
+                                        <h2>Digital Marketing</h2>
+                                    </div>
+                                    <img src="Images/digital-marketing.png">
+                                    <p>Social media marketing is the most important way to get more potential customers. We will study your business and look at the most suitable social media networks that can use to web site.</p>
+                                </div>
+                                
+                                <div class="offer-btn">
+                                    <button class="offer-box1-btn">Learn more</button>
+                                </div>
+                            </div>
+                            <div class="home-services-box box4">
+                                <div class="offer-h2">
+                                    <div class="offer-h2-div">
+                                        <h2>Article & Web Content Writing</h2>
+                                    </div>
+                                    <img src="Images/content-writing.png">
+                                    <p>Effective web content will support to buyers, help Internet searchers find what they’re looking for (your products!). So having fresh content on your web site is essential part. We are here to give you high quality, SEO friendly content for your website, articles ar any other content writing program</p>
+                                </div>
+                                <div class="offer-btn">
+                                    <button class="offer-box1-btn">Learn more</button>
+                                </div>
+                            </div>
+                            <div class="home-services-box box5">
+                                <div class="offer-h2">
+                                    <div class="offer-h2-div">
+                                        <h2>Graphic Designing</h2>
+                                    </div>
+                                    <img src="Images/graphic-designing.png">
+                                    <p>We keep up-to-date on graphic design trends, to ensure our websites are designed up to the standards of current design aesthetics. Our graphic designers are creative, innovative and highly skilled at their craft, at Ideal Web Design we only offer the best.</p>
+                                </div>
+                                <div class="offer-btn">
+                                    <button class="offer-box1-btn">Learn more</button>
+                                </div>
+                            </div>
+                            <div class="home-services-box box6">
+                                <div class="offer-h2">
+                                    <div class="offer-h2-div">
+                                        <h2>Mobile App Development</h2>
+                                    </div>
+                                    <img src="Images/app-development.png">
+                                    <p>We can develop mobile apps to meet your requirement for a reasonable price. We develops online portals, applications, web apps, and mobile app projects. Call Us today for get a free quote today!</p>
+                                </div>
+                                <div class="offer-btn">
+                                    <button class="offer-box1-btn">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <hr class="f-line">
+                <div class="wallpaper">
+                    <div class="achieve">
+                        <h1 class="achieve-skills">OUR SKILLS</h1>
+                        <hr>
+                        <div class="achieve-flex">
+                            <div class="achieve-box">
+                                <div class="achieve-icon">
+                                    <img src="Images/happy-client.png">
+                                </div>
+                                <div class="achieve-content">
+                                    <h1>99 %</h1>
+                                    <p>Happy Clients</p>
+                                </div>
+                            </div>
+        
+                            <div class="achieve-box">
+                                <div class="achieve-icon">
+                                    <img src="Images/rocket.png">
+                                </div>
+                                <div class="achieve-content">
+                                    <h1>400 +</h1>
+                                    <p>Projects Completed</p>
+                                </div>
+                            </div>
+        
+                            <div class="achieve-box">
+                                <div class="achieve-icon">
+                                    <img src="Images/businessman.png">
+                                </div>
+                                <div class="achieve-content">
+                                    <h1>300 +</h1>
+                                    <p>Outsource Projects</p>
+                                </div>
+                            </div>
+        
+                            <div class="achieve-box">
+                                <div class="achieve-icon">
+                                    <img src="Images/award.png">
+                                </div>
+                                <div class="achieve-content">
+                                    <h1>10 +</h1>
+                                    <p>Awards Won</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="f-line">
+                <div class="quote-background">
+                    <div class="quote">
+                        <div class="quote-txt">
+                            <h2>REQUEST YOUR</h2>
+                            <h1>FREE WEBSITE AUDIT REPORT</h1>
+                            <p>We take care of every aspect of your web site and guide you to keep the visitors attention to become customers. We just help you to achieve it, combining over 5 years’ of experience.</p>
+                            <button class="quote-btn">GET QUOTE</button>
+                        </div>
+                        <div class="quote-img">
+                            <img src="Images/quote image.jpg">
+                        </div>
+                    </div>
+                </div>
+                <h1 class="technologies-h1">TECHNOLOGIES WE USE</h1>
+                <hr class="technologies-hr">
+                <div class="technologies">
+                    <div class="technologies-box">
+                        <img src="Images/bootstrap.jpg">
+                    </div>
+                    <div class="technologies-box">
+                        <img src="Images/react.jpg">
+                    </div>
+                    <div class="technologies-box">
+                        <img src="Images/flutter.jpg">
+                    </div>
+                    <div class="technologies-box">
+                        <img src="Images/php.jpg">
+                    </div>
+                    <div class="technologies-box">
+                        <img src="Images/angular.jpg">
+                    </div>
+                    <div class="technologies-box">
+                        <img src="Images/my sql.jpg">
+                    </div>
+                    <div class="technologies-box">
+                        <img src="Images/wordpress.jpg">
+                    </div>
+                    <div class="technologies-box">
+                        <img src="Images/laravel.jpg">
+                    </div>
+                </div>
+                <h1 class="reviews-h1">WHAT OUR CLIENTS SAYS</h1>
+                <hr class="reviews-hr">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="review-container">
+                            <div class="review-card">
+                                <img src="Images/user1.png">
+                                <h1>Nimesh Ranaweera</h1>
+                                <h3>CEO,SC HOLDINGS.</h3>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo facilis at laudantium quasi iste, earum deleniti necessitatibus cupiditate! Fugit consequuntur, itaque error est cupiditate nostrum et amet ipsa? Voluptatem!</p>
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="review-container">
+                            <div class="review-card">
+                                <img src="Images/user2.png">
+                                <h1>Manoj Weerarathne</h1>
+                                <h3>CHAIRMAN,HOPE CARS</h3>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam asperiores ullam reiciendis saepe quia quidem fugit possimus molestias aspernatur accusantium magni reprehenderit illum ab laudantium iusto eius, facere rem omnis.</p>
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="review-container">
+                            <div class="review-card">
+                                <img src="Images/user3.png">
+                                <h1>Kamal Mudalige</h1>
+                                <h3>MANAGER,TASTY CAKES (PVT) LTD</h3>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo facilis at laudantium quasi iste, earum deleniti necessitatibus cupiditate! Fugit consequuntur, itaque error est cupiditate nostrum et amet ipsa? Voluptatem!</p>
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="review-container">
+                            <div class="review-card">
+                                <img src="Images/user4.png">
+                                <h1>Nimali Jayawardana</h1>
+                                <h3>CHAIRMAN,SRK COMPUTERS.</h3>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo facilis at laudantium quasi iste, earum deleniti necessitatibus cupiditate! Fugit consequuntur, itaque error est cupiditate nostrum et amet ipsa? Voluptatem!</p>
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+                  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                  <script>
+                    
+                  </script>
+                <h1 class="faq-h1">FREQUENTLY ASKED QUESTIONS(FAQ)</h1>
+                <hr class="faq-hr">
+                <div class="question-container">
+                    <div class="questions q1 b">
+                        <div class="questions-content">
+                            <h2>What are the services can we get from this company?</h2>
+                            <div class="question-p1 qp">
+                                <hr>
+                                <p style="margin-top: 0;">You can get many services from us such as web development, web design and app development.<a href="#">Click Here</a> to learn more</p>
+                            </div>
+                        </div>
+                        <div class="questions-icon">
+                            <i class="fa-solid fa-angle-down q1-icon"></i>
+                        </div>
+                    </div>
+                    <div class="questions q2">
+                        <div class="questions-content">
+                            <h2>What I need to do to give my order?</h2>
+                            <div class="question-p2 qp">
+                                <hr>
+                                <p style="margin-top: 0;">Follow this link & submit your order to us.</p>
+                                <button class="quote-btn">Get Quote</button>
+                            </div>
+                        </div>
+                        <div class="questions-icon">
+                            <i class="fa-solid fa-angle-down q2-icon"></i>
+                        </div>
+                    </div>
+                    <div class="questions q3">
+                        <div class="questions-content">
+                            <h2>I need to create a mobile application for my business.Can I create it from your company?</h2>
+                            <div class="question-p3 qp">
+                                <hr>
+                                <p>Yes.</p>
+                            </div>
+                        </div>
+                        <div class="questions-icon">
+                            <i class="fa-solid fa-angle-down q3-icon"></i>
+                        </div>
+                    </div>
+                    <div class="questions q4">
+                        <div class="questions-content">
+                            <h2>I would like to joi with your team as a web designer? What I need to do for it?</h2>
+                            <div class="question-p4 qp">
+                                <hr>
+                                <p>Thanks for thinking that to join with our awesome web developing team.You can submit your CV & Qualification reports to us.After that We will call you for an interview.</p>
+                                <p><a href="#">Click Here</a> to submit your CV</p>
+                            </div>
+                        </div>
+                        <div class="questions-icon">
+                            <i class="fa-solid fa-angle-down q4-icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="blog-posts-header">DAILY POSTS</h1>
+                <hr class="blog-posts-hr">
+                <div class="swiper mySwiper blog-desktop">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="blog-posts">
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/job.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>New Job Vacancies Available for Web Developers.</h1>
+                                            <p>We have a new job vacancy for web developers.You can submit your CV to us & join with our  growing team.</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/coding.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Coding Camp 2022 | Organized by SM Technologies.</h1>
+                                            <p>Coding Camp 2022 is scheduled to be held this year as well.All of you who interested in coding can join with this event.</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/award-ceremony.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>We Won the Award As Most Popular Website in Sri Lanka</h1>
+                                            <p>Our Website was selected as the most popular website of Sri Lanka in 2022.This Award Ceremony is organized by SL Webs.Thank you all who supported us.</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts">
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/celebrate.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Celebrating Our 5 Year Anniversary</h1>
+                                            <p>We celebrated our 5 year anniversary gloriously.SM Technologies has been established for 5 years now.</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/graphic.jpeg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Free Course for Graphic Designers By SM Technologies</h1>
+                                            <p>We have started a new project to develop skills of graphic designers.You can Register to this course and develop your skill in graphic designing</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/introduce.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Introducing a New Mobile Application</h1>
+                                            <p>We developed a new mobile application to measure your health.You can download it using below links.</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <!---Blog Slider for Tablets-->
+
+                <div class="swiper mySwiper blog-tablet">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="blog-posts">
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/job.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>New Job Vacancies Available for Web Developers.</h1>
+                                            <p>We have a new job vacancy for web developers.You can submit your CV to us & join with our  growing team.</p>
+                                        </div>
+                                        <div class="rasiru">
+
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/coding.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Coding Camp 2022 | Organized by SM Technologies.</h1>
+                                            <p>Coding Camp 2022 is scheduled to be held this year as well.All of you who interested in coding can join with this event.</p>
+                                        </div>
+                                        <div class="rasiru">
+                                            
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts">
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/award-ceremony.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>We Won the Award As Most Popular Website in Sri Lanka</h1>
+                                            <p>Our Website was selected as the most popular website of Sri Lanka in 2022.This Award Ceremony is organized by SL Webs.Thank you all who supported us.</p>
+                                        </div>
+                                        <div class="rasiru">
+                                            
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/celebrate.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Celebrating Our 5 Year Anniversary</h1>
+                                            <p>We celebrated our 5 year anniversary gloriously.SM Technologies has been established for 5 years now.</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts">
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/graphic.jpeg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Free Course for Graphic Designers By SM Technologies</h1>
+                                            <p>We have started a new project to develop skills of graphic designers.You can Register to this course and develop your skill in graphic designing</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/introduce.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Introducing a New Mobile Application</h1>
+                                            <p>We developed a new mobile application to measure your health.You can download it using below links.</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="swiper mySwiper blog-mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="blog-posts">
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/job.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>New Job Vacancies Available for Web Developers.</h1>
+                                            <p>We have a new job vacancy for web developers.You can submit your CV to us & join with our  growing team.</p>
+                                        </div>
+                                        <div class="rasiru">
+
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts">
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/coding.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Coding Camp 2022 | Organized by SM Technologies.</h1>
+                                            <p>Coding Camp 2022 is scheduled to be held this year as well.All of you who interested in coding can join with this event.</p>
+                                        </div>
+                                        <div class="rasiru">
+                                            
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts">
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/award-ceremony.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>We Won the Award As Most Popular Website in Sri Lanka</h1>
+                                            <p>Our Website was selected as the most popular website of Sri Lanka in 2022.This Award Ceremony is organized by SL Webs.Thank you all who supported us.</p>
+                                        </div>
+                                        <div class="rasiru">
+                                            
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts">
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/celebrate.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Celebrating Our 5 Year Anniversary</h1>
+                                            <p>We celebrated our 5 year anniversary gloriously.SM Technologies has been established for 5 years now.</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts">
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/graphic.jpeg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Free Course for Graphic Designers By SM Technologies</h1>
+                                            <p>We have started a new project to develop skills of graphic designers.You can Register to this course and develop your skill in graphic designing</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts">
+                                <div class="blog-posts-card">
+                                    <div class="blog-posts-card-img">
+                                        <img src="Images/introduce.jpg">
+                                    </div>
+                                    <div class="blog-posts-card-content">
+                                        <div class="blog-posts-card-content-div1">
+                                            <h1>Introducing a New Mobile Application</h1>
+                                            <p>We developed a new mobile application to measure your health.You can download it using below links.</p>
+                                        </div>
+                                        <div class="blog-posts-card-content-div2">
+                                            <button class="blog-posts-btn">Learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                <div class="footer">
+                    <div class="footer-divs footer-div1">
+                        <h1>SM TECHNOLOGIES</h1>
+                        <p>We are SM Technologies. We do web designing, web development, graphic designing, logo designing, branding, digital marketing, SEO, content writing, Android app development, iOS app development and UI/UX designing in Sri Lanka.</p>
+                    </div>
+                    <div class="footer-divs footer-div2">
+                        <h1>QUICK LINKS</h1>
+                        <ul>
+                            <li style="padding-top: 0;"><a href="#">Home</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Join Now</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-divs footer-div3">
+                        <h1>CONTACT US</h1>
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i>SM Technologies (Pvt) Ltd,</p>
+                        <p><i class="fa-solid fa-phone"></i>+94719344352</p>
+                        <p><i class="fa-solid fa-envelope fa-envelope-footer"></i>info@smtechnologies.com</p>
+                    </div>
+                    <div class="footer-divs footer-div4">
+                        <h1>NEWS LETTER</h1>
+                        <p>Subscribe for latest updates</p>
+                        <input type="text" placeholder="Enter your E-mail" class="news-letter">
+                        <button class="footer-subscribe-btn">Subscribe</button><br>
+                        <!-- <div class="footer-social">
+                            <i class="fab fa-facebook-f"></i>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <i class="fab fa-twitter"></i>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="footer-div">
+                    <p>&copy All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+           
+           <script src="script.js"></script>
+    </body>
+</html>
