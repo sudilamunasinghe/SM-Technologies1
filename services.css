@@ -409,8 +409,20 @@ body{
 }
 
 .solution-services{
-    background-color: rgba(48, 48, 48, 0.479);
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 50px 0px;
+    margin-top: 50px;
+}
+.solution-services h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.solution-services p{
+    text-align: center;
+    line-height: 23px;
+    font-size: 18px;
 }
 .solution-services-container{
     display: flex;
@@ -429,8 +441,9 @@ body{
 .solution-services-div{
     width: 20%;
     margin-top: 100px;
-}.solution-icon-div{
-    background-color: rgb(43, 43, 43);
+}
+.solution-icon-div{
+    background-color: rgb(255, 255, 255);
     width: 50px;
     height: 50px;
     padding: 5px;
@@ -438,6 +451,7 @@ body{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: 10px;
 }
 .solution-icon-div i{
     font-size: 30px;
@@ -445,6 +459,7 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    color: #8E2DE2;
 }
 /*---Styles for Footer---*/
 
