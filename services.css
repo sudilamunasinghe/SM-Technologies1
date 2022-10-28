@@ -409,8 +409,8 @@ body{
 }
 
 .solution-services{
-    background-color: #2575fc;
-    padding: 40px 0px;
+    background-color: rgba(48, 48, 48, 0.479);
+    padding: 50px 0px;
 }
 .solution-services-container{
     display: flex;
