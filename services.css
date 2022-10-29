@@ -488,6 +488,27 @@ body{
         font-size: 26px;
     }
 }
+
+/*---Projects Section in Services Page---*/
+
+.projects-services{
+    margin-bottom: -74px;
+}
+.projects-services-img{
+    background-image: url("Images/group-asia-young-creative-people-smart-casual-wear-discussing-business-brainstorming.jpg");
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    padding: 100px 0px;
+}
+.projects-services-content{
+    position: relative;
+    bottom: 350px;
+}
+.projects-services-content h1{
+    
+}
+
 /*---Styles for Footer---*/
 
 .footer{
