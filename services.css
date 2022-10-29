@@ -468,6 +468,13 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, F
     .solution-services-div{
         width: 40%;
     }  
+    .solution-services p{
+        margin-bottom: 100px;
+    }
+    .solution-services-div{
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
 }
 @media screen and (max-width:450px){
     .solution-services h1{
