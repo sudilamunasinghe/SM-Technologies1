@@ -559,6 +559,38 @@ body{
     }
 }
 
+/*---Styles for Contact Section in Services Page---*/
+
+.contact-services{
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-around;
+    background-color: lightblue;
+}
+.contact-services-div{
+    width: 40%;
+    background-color: #7eacfc;
+}
+.contact-services-div input{
+    width: 100%;
+    margin-bottom: 5px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.contact-services-div input::placeholder{
+    font-size: 18px;
+}
+.contact-services-underline{
+    content: "";
+    width: 95%;
+    height: 2px;
+    background-color: black;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
 
 /*---Styles for Footer---*/
 
