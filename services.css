@@ -624,6 +624,11 @@ body{
     color: white;
     transition: 0.5s;
 }
+@media screen and (max-width:1000px){
+    .contact-services-div{
+        width: 90%;
+    }
+}
 
 /*---Styles for Footer---*/
 
