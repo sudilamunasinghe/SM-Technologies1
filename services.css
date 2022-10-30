@@ -522,6 +522,8 @@ body{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    padding-left: 5px;
+    padding-left: 5px;
 }
 .projects-services-fade{
     background-color: rgba(0, 0, 0, 0.452);
@@ -542,6 +544,19 @@ body{
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 15px;
+}
+@media screen and (max-width:1000px){
+    .projects-services-content h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:680px){
+    .projects-services-content h1{
+        font-size: 35px;
+    }
+    .projects-services-content p{
+        width: 80%;
+    }
 }
 
 /*---Styles for Footer---*/
