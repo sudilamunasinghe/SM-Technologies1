@@ -491,32 +491,33 @@ body{
 
 /*---Projects Section in Services Page---*/
 
-/* .projects-services{
-    margin-bottom: -74px;
-} */
-.projects-services-img{
-    background-image: url("Images/group-asia-young-creative-people-smart-casual-wear-discussing-business-brainstorming.jpg");
+.projects-services{
+    margin-bottom: -220px;
+}
+.projects-services img{
     width: 100%;
-    height: auto;
-    background-position: center;
+    height: 450px;
+    object-fit: cover;
 }
 .projects-services-content{
     position:relative;
-    bottom: 50vh;
+    bottom: 450px;
+    transform: translateY(50%);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .projects-services-content h1{
-    font-size: 70px;
-    font-weight:750;
+    font-size: 60px;
     text-align: center;
     margin-bottom: 30px;
 }
 .projects-services-content p{
-    font-size: 20px;
+    font-size: 18px;
+    width: 70%;
     text-align: center;
-    width: 65%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: 15px;
 }
 .projects-services-btn{
     margin-top: 15px;
