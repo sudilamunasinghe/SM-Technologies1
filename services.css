@@ -562,14 +562,28 @@ body{
 /*---Styles for Contact Section in Services Page---*/
 
 .contact-services{
+    background-color: #ffffff;
+    padding-top: 20px;
+}
+.contact-services h2{
+    color: #2575fc;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-services h1{
+    color: #e21818;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.contact-services-container{
     display: flex;
     flex-flow: wrap;
     justify-content:space-around;
-    background-color: lightblue;
 }
 .contact-services-div{
-    width: 40%;
-    background-color: #7eacfc;
+    width: 45%;
 }
 .contact-services-div input{
     width: 100%;
@@ -582,14 +596,33 @@ body{
 }
 .contact-services-div input::placeholder{
     font-size: 18px;
+    color: rgb(184, 184, 184);
+    font-weight: lighter;
 }
 .contact-services-underline{
     content: "";
     width: 95%;
     height: 2px;
-    background-color: black;
+    background-color: rgb(184, 184, 184);;
     margin-left: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+}
+#contact-services-submit{
+    padding: 12px 40px 12px 40px;
+    background-color: transparent;
+    width: auto;
+    font-size: 18px;
+    color: #e21818;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid #e21818;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#contact-services-submit:hover{
+    background-color: #e21818;
+    color: white;
+    transition: 0.5s;
 }
 
 /*---Styles for Footer---*/
