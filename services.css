@@ -596,18 +596,18 @@ body{
 }
 .contact-services-div input::placeholder{
     font-size: 18px;
-    color: rgb(184, 184, 184);
+    color: rgb(199, 199, 199);
     font-weight: lighter;
 }
 .contact-services-underline{
     content: "";
     width: 95%;
-    height: 2px;
-    background-color: rgb(184, 184, 184);;
+    height: 1px;
+    background-color: rgb(199, 199, 199);;
     margin-left: 10px;
     margin-bottom: 35px;
 }
-#contact-services-submit{
+#contact-services-submit1, #contact-services-submit2{
     padding: 12px 40px 12px 40px;
     background-color: transparent;
     width: auto;
@@ -619,14 +619,23 @@ body{
     cursor: pointer;
     transition: 0.5s;
 }
-#contact-services-submit:hover{
+#contact-services-submit1:hover, #contact-services-submit2:hover{
     background-color: #e21818;
     color: white;
     transition: 0.5s;
 }
+#contact-services-submit2{
+    display: none;
+}
 @media screen and (max-width:1000px){
     .contact-services-div{
         width: 90%;
+    }
+    #contact-services-submit2{
+        display: block;
+    }
+    #contact-services-submit1{
+        display: none;
     }
 }
 
