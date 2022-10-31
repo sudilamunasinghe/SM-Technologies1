@@ -562,7 +562,7 @@ body{
 /*---Styles for Contact Section in Services Page---*/
 
 .contact-services{
-    background-color: #ffffff;
+    background-color: rgba(54, 54, 54, 0.315);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -599,6 +599,10 @@ body{
     font-size: 18px;
     color: rgb(199, 199, 199);
     font-weight: lighter;
+}
+.contact-services-div input{
+    color: white;
+    font-size: 18px;
 }
 .contact-services-underline{
     content: "";
