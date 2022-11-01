@@ -23,8 +23,6 @@ body{
     top: 0;
     background-color: rgba(0, 0, 0, 0.384);
     height: 500px;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 .img-text-about h1{
     font-size: 55px;
@@ -40,7 +38,39 @@ body{
 }
 .img-text-about-content{
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     width: 70%;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+}
+@media screen and (max-width:845px){
+    .img-text-about-content{
+        width: 90%;
+    }
+}
+@media screen and (max-width:600px){
+    .img-text-about h1{
+        font-size: 50px;
+    }
+    .img-text-about h2{
+        font-size: 30px;
+    }
+    .img-text-about p{
+        font-size: 18px;
+    }
+    .img-text-about-content{
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+@media screen and (max-width:350px){
+    .img-text-about h1{
+        font-size: 14vw;
+    }
+    .img-text-about h2{
+        font-size: 9vw;
+    }
+    .img-text-about p{
+        font-size: 6vw;
+    }
 }
