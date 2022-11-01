@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.main-content img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.img-text-about{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.384);
+    height: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.img-text-about h1{
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.img-text-about h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.img-text-about p{
+    font-size: 20px;
+}
+.img-text-about-content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70%;
+}
