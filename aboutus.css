@@ -21,7 +21,7 @@ body{
 .img-text-about{
     position: absolute;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: rgba(0, 0, 0, 0.404);
     height: 500px;
 }
 .img-text-about h1{
