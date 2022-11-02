@@ -81,7 +81,7 @@ body{
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
-    background-color: brown;
+    background-image: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% );
     padding-top: 3%;
     padding-bottom: 3%;
     margin-top: -4px;
@@ -96,6 +96,7 @@ body{
 .who-we-are-about-content p{
     font-size: 20px;
     margin-bottom: 12px;
+    text-align: justify;
 }
 .who-we-are-about-img{
     width: 45%;
