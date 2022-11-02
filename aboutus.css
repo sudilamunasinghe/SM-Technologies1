@@ -82,14 +82,20 @@ body{
     flex-flow: wrap;
     justify-content: space-evenly;
     background-color: brown;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: -4px;
 }
 .who-we-are-about-content{
     width: 45%;
 }
 .who-we-are-about-content h1{
     font-size: 40px;
+    margin-bottom: 20px;
+}
+.who-we-are-about-content p{
+    font-size: 20px;
+    margin-bottom: 12px;
 }
 .who-we-are-about-img{
     width: 45%;
