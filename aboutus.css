@@ -74,3 +74,27 @@ body{
         font-size: 6vw;
     }
 }
+
+/*---Styles for who-we-are section in aboutus page---*/
+
+.who-we-are-about{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    background-color: brown;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.who-we-are-about-content{
+    width: 45%;
+}
+.who-we-are-about-content h1{
+    font-size: 40px;
+}
+.who-we-are-about-img{
+    width: 45%;
+}
+.who-we-are-about-img img{
+    width: 100%;
+    object-fit: cover;
+}
