@@ -104,4 +104,18 @@ body{
 .who-we-are-about-img img{
     width: 100%;
     object-fit: cover;
+    height: 100%;
+    border-radius: 5px;
+}
+.who-we-are-fade{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: calc(100% + 4px);
+    transition: 0.5s;
+}
+.who-we-are-fade:hover{
+    background-color: rgba(0, 0, 0, 0.322);
+    transition: 0.5;
 }
