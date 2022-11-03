@@ -159,5 +159,10 @@ var swiper = new Swiper(".mySwiper", {
 	  nextEl: ".swiper-button-next",
 	  prevEl: ".swiper-button-prev",
 	},
-  });
+});
 
+/*---JQuery Part for why-choose-about-more button in why-choose-about---*/
+
+$('.why-choose-about-more').click(function(){
+	$('.view-more-txt-about').slideToggle(300)
+})
