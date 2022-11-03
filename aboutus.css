@@ -141,12 +141,57 @@ body{
     padding: 3%;
     background-color: rgba(56, 56, 56, 0.616);
 }
+.why-choose-about-underline{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: gold;
+    margin-bottom: 25px;
+    position: relative;
+    left: 30%;
+    transform: translateX(-50%);
+}
 .why-choose-about h1{
     font-size: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 .why-choose-about p{
     font-size: 18px;
     font-weight:300;
     margin-bottom: 15px;
+}
+.why-choose-about-more{
+    color: white;
+    font-size: 18px;
+    padding: 6px 14px 6px 14px;
+    border-radius: 20px;
+    border:2px solid white;
+    background-color: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.why-choose-about-more:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.why-choose-about-more:hover .fa-chevron-down{
+    color: black;
+    transition: 0.5s;
+}
+@media screen and (max-width:1000px){
+    .why-choose-about h1{
+        text-align: center;
+    }
+    .why-choose-about-underline{
+        left: 50%;
+    }
+}
+@media screen and (max-width:650px){
+    .why-choose-about h1{
+        font-size: 25px;
+    }
+    .why-choose-about p{
+        font-size: 15px;
+    }
 }
