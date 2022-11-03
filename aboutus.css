@@ -134,3 +134,19 @@ body{
         height: 50%;
     }
 }
+
+/*---Styles for why-choose-about section in aboutus page---*/
+
+.why-choose-about{
+    padding: 3%;
+    background-color: rgba(56, 56, 56, 0.616);
+}
+.why-choose-about h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.why-choose-about p{
+    font-size: 18px;
+    font-weight:300;
+    margin-bottom: 15px;
+}
