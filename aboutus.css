@@ -120,3 +120,17 @@ body{
     background-color: rgba(0, 0, 0, 0.322);
     transition: 0.5;
 }
+@media screen and (max-width:1000px){
+    .who-we-are-about-content{
+        width: 90%;
+    }
+    .who-we-are-about-content h1{
+        text-align: center;
+    }
+    .who-we-are-about-img{
+        width: 90%;
+    }
+    .who-we-are-about-img{
+        height: 50%;
+    }
+}
