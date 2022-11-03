@@ -148,7 +148,7 @@ body{
     background-color: gold;
     margin-bottom: 25px;
     position: relative;
-    left: 30%;
+    left: 25%;
     transform: translateX(-50%);
 }
 .why-choose-about h1{
@@ -169,13 +169,13 @@ body{
     background-color: transparent;
     transition: 0.5s;
     cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
 }
 .why-choose-about-more:hover{
     background-color: white;
-    color: black;
-    transition: 0.5s;
-}
-.why-choose-about-more:hover .fa-chevron-down{
     color: black;
     transition: 0.5s;
 }
