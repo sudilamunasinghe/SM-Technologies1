@@ -103,7 +103,7 @@ $('#close').click(function(){
 
 /*---JQuery Part for Mission & Vision in Home Page---*/
 
-$('.mission-btn, .mission-slide').click(function(){
+$('.mission-slide').click(function(){
 	$('.mission').fadeIn(300);
 	$('.vision').fadeOut(0);
 	$('.vision-btn').css({
@@ -113,7 +113,7 @@ $('.mission-btn, .mission-slide').click(function(){
 		backgroundColor: 'rgb(0, 255, 85)',
 	})
 })
-$('.vision-btn, .vision-slide').click(function(){
+$('.vision-slide').click(function(){
 	$('.mission').fadeOut(0);
 	$('.vision').fadeIn(300);
 	$('.vision-btn').css({
