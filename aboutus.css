@@ -11,6 +11,7 @@ html{
 body{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
     background-color: black;
 }
 .main-content img{
@@ -222,17 +223,22 @@ body{
 .vision-mission-img img{
     width: 100%;
     object-fit: cover;
+    border-radius: 8px;
 }
 .vision-mission-about h1{
-    font-size: 25px;
+    font-size: 45px;
     margin-bottom: 15px;
+    font-family: oswald;
+    text-align: center;
+    color:rgb(255, 0, 0);
 }
 .vision-mission-btn-div{
     width: auto;
     position: relative;
-    left: 50%;
-    transform: translateX(-120px);
+    /* left: 50%;
+    transform: translateX(-120px); */
     margin-bottom: 20px;
+    vertical-align: middle;
 }
 .vision-mission-about-btn1{
     color: white;
@@ -267,26 +273,17 @@ body{
     margin-bottom: 5px;
     line-height: 1.3;
 }
-
-/* --this is used for JQuery Part---
-
-.vision-mission-about-btn1-js{
-    color: white;
-    font-size: 18px;
-    border: 2px solid red;
-    background-color: red;
-    border-radius: 8px;
-    padding: 8px 25px 8px 25px;
-    cursor: pointer;
-    width: 120px;
+@media screen and (max-width:1000px){
+    .vision-mission-about{
+        padding: 3% 0 3% 0;
+    }
+    .vision-mission-content{
+        width: 90%;
+    }
+    .vision-mission-img{
+        width: 90%;
+    }
 }
-.vision-mission-about-btn2-js{
-    color: white;
-    font-size: 18px;
-    background-color: transparent;
-    padding: 8px 25px 8px 25px;
-    border: 2px solid white;
-    border-radius: 8px;
-    width: 120px;
-    cursor: pointer;
-} */
+
+
+
