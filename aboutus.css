@@ -285,5 +285,56 @@ body{
     }
 }
 
+/*---Styles for company-about section in aboutus page---*/
 
-
+.company-about{
+    margin-bottom: -500px;
+}
+.company-about img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.company-about-fade{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 504px;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.company-content-about{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.company-content-icon{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 20px;
+}
+.company-content-about img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.company-content-about h1{
+    font-size: 40px;
+    font-family: oswald;
+    text-align: center;
+}
+.company-content-about span{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-family: oswald;
+    text-align: center;
+}
