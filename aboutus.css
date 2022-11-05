@@ -134,6 +134,11 @@ body{
         height: 50%;
     }
 }
+@media screen and (max-width:650px){
+    .who-we-are-about-content p{
+        font-size: 18px;
+    }
+}
 
 /*---Styles for why-choose-about section in aboutus page---*/
 
@@ -195,6 +200,79 @@ body{
         font-size: 25px;
     }
     .why-choose-about p{
-        font-size: 15px;
+        font-size: 18px;
     }
 }
+
+/*---Styles for vission-mission-about section---*/
+
+.vision-mission-about{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.vision-mission-content{
+    width: 45%;
+}
+.vision-mission-img{
+    width: 45%;
+}
+.vision-mission-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.vision-mission-about h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.vision-mission-btn-div{
+    width: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-120px);
+}
+.vision-mission-about-btn1{
+    color: white;
+    font-size: 18px;
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 8px;
+    padding: 8px 25px 8px 25px;
+    cursor: pointer;
+    width: 120px;
+}
+.vision-mission-about-btn2{
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 8px 25px 8px 25px;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 120px;
+    cursor: pointer;
+}
+
+/* --this is used for JQuery Part---
+
+.vision-mission-about-btn1-js{
+    color: white;
+    font-size: 18px;
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 8px;
+    padding: 8px 25px 8px 25px;
+    cursor: pointer;
+    width: 120px;
+}
+.vision-mission-about-btn2-js{
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 8px 25px 8px 25px;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 120px;
+    cursor: pointer;
+} */
