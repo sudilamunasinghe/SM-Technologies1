@@ -232,6 +232,7 @@ body{
     position: relative;
     left: 50%;
     transform: translateX(-120px);
+    margin-bottom: 20px;
 }
 .vision-mission-about-btn1{
     color: white;
@@ -252,6 +253,17 @@ body{
     border-radius: 8px;
     width: 120px;
     cursor: pointer;
+}
+.mission-txt-about{
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 5px;
+    display: none;
+}
+.vision-txt-about{
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 5px;
 }
 
 /* --this is used for JQuery Part---
