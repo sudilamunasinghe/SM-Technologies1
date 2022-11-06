@@ -289,11 +289,12 @@ body{
 
 .company-about{
     margin-bottom: -500px;
+    position:relative;
 }
 .company-about img{
     width: 100%;
     height: 500px;
-    object-fit: cover;
+    object-fit:cover;
 }
 .company-about-fade{
     width: 100%;
@@ -338,3 +339,25 @@ body{
     font-family: oswald;
     text-align: center;
 }
+@media screen and (max-width:600px){
+    .company-content-about{
+        width: 90%;
+    }
+}
+@media screen and (max-width:480px){
+    .company-content-about h1{
+        font-size: 35px;
+    }
+    .company-about span{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:350px){
+    .company-content-about h1{
+        font-size: 10vw;
+    }
+    .company-content-about span{
+        font-size: 10vw;
+    }
+}
+
