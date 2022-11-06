@@ -396,3 +396,19 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
+@media screen and (max-width:1000px){
+    .achievements-about-div{
+        width: 46%;
+    }
+    .achievements-about-div img{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:500px){
+    .achievements-about-div{
+        width: 92%;
+    }
+    .achievements-about-div img{
+        margin-top: 60px;
+    }
+}
