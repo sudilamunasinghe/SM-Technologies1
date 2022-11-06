@@ -361,3 +361,38 @@ body{
     }
 }
 
+/*---Styles for achievements-about section---*/
+
+.achievements-about{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    padding: 80px 0px 80px 0px;
+    background-color: rgb(26, 26, 26);
+}
+.achievements-about-div{
+    width: 23%;
+}
+.achievements-about-div img{
+    width: 100px;
+    margin-bottom: 45px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.achievements-about-div h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.achievements-about-div h2{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+}
+.achievements-about-txt{
+    width: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
