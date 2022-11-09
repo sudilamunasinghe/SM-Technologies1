@@ -412,3 +412,17 @@ body{
         margin-top: 60px;
     }
 }
+
+/*---Styles for technologies-about section---*/
+
+.technologies-about{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.technologies-about-txt{
+    width: 40%;
+}
+.technologies-about-box{
+    width: 40%;
+}
