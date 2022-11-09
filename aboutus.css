@@ -426,3 +426,7 @@ body{
 .technologies-about-box{
     width: 40%;
 }
+.technologies-about-box img{
+    width: 100px;
+    height: 100px;
+}
