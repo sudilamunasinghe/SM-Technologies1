@@ -452,3 +452,46 @@ body{
     margin-bottom: 10px;
     border-radius: 5px;
 }
+@media screen and (max-width:1280px){
+    .technologies-about-box{
+        width: 60%;
+    }
+}
+@media screen and (max-width:1000px){
+    .technologies-about-txt{
+        width: 90%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .technologies-about-txt h1{
+        margin: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .technologies-about-box{
+        width: 100%;
+        position: relative;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .tech-box{
+        width: 20%;
+    }
+}
+@media screen and (max-width:750px){
+    .tech-box{
+        width: 30%;
+    }
+    .technologies-about-box{
+        gap: 1rem;
+    }
+    .technologies-about-txt h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:550px){
+    .tech-box{
+        width: 45%;
+    }
+}
