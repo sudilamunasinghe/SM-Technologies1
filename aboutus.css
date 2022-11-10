@@ -418,15 +418,28 @@ body{
 .technologies-about{
     display: flex;
     flex-flow: wrap;
-    justify-content: space-evenly;
 }
 .technologies-about-txt{
     width: 40%;
 }
 .technologies-about-box{
     width: 40%;
+    display: flex;
+    flex-flow: wrap;
 }
 .technologies-about-box img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.tech-box{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    content: "";
+    background-color: antiquewhite;
+    margin-bottom: 10px;
 }
