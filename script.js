@@ -145,16 +145,20 @@ $('.q4').click(function(){
 
 /*---JS Part for Testimonials Section---*/
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".testimonials", {
 	navigation: {
 	  nextEl: ".swiper-button-next",
 	  prevEl: ".swiper-button-prev",
 	},
+	autoplay: {
+          delay:3000,
+          disableOnInteraction: false,
+        },
   });
 
 /*---JS Part for Daily Posts Section---*/
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".posts", {
 	navigation: {
 	  nextEl: ".swiper-button-next",
 	  prevEl: ".swiper-button-prev",
