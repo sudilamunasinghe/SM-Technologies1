@@ -330,6 +330,7 @@ color: white;
   	-webkit-animation-duration: 40s;
   	animation-name: zoomin;
   	animation-duration: 40s;
+    object-fit: cover;
 }
 @-webkit-keyframes zoomin {
   from {transform: scale(1, 1);}
@@ -1362,8 +1363,9 @@ color: white;
 }
 .blog-posts-card img{
     width: 100%;
-    height: 45%;
+    min-height: 180px;
     transition: 0.5s;
+    object-fit: cover;
 }
 .blog-posts-card img:hover{
     transform: scale(1.1);
