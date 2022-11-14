@@ -73,6 +73,7 @@ body{
     font-size: 50px;
     text-align: center;
     text-transform: uppercase;
+    font-family: oswald;
 }
 .services-underline{
     background-color: red;
@@ -131,6 +132,7 @@ body{
     height: 200px;
     border-radius: 5px;
     transition: 0.5s;
+    object-fit:cover;
 }
 .services-card img:hover{
     transform: scale(1.1);
@@ -345,6 +347,7 @@ body{
     position: unset;
     top: 100px;
     color: red;
+    font-family: oswald;
 }
 .sample h2{
     font-size: 35px;
