@@ -495,3 +495,78 @@ body{
         width: 45%;
     }
 }
+
+/*---Styles for Team section in aboutus page---*/
+
+.team-about h1{
+    font-family: oswald;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    margin-top: 30px;
+}
+.team-about-underline{
+    content: "";
+    width: 10%;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 7%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.team-about-container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.team-about-card{
+    width: 25%;
+    background-color: rgba(43, 43, 43, 0.452);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+.team-about-card img{
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 35%;
+    margin-bottom: 10px;
+}
+.team-about-card h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: -70px;
+}
+.team-about-card h3{
+    font-size: 18px;
+    font-family:monospace;
+    color: blueviolet;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.team-about-card p{
+    font-size: 15px;
+    text-align: center;
+}
+.team-about-social{
+    width: max-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+.team-about-social i{
+    letter-spacing: 15px;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.team-about-social i:hover{
+    color: red;
+    transition: 0.5s;
+}
