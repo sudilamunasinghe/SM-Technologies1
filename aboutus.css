@@ -529,7 +529,6 @@ body{
     box-sizing: border-box;
 }
 .team-about-card-content{
-    height: auto;
     padding: 20px;
     background-color: rgba(43, 43, 43, 0.452);
     border-bottom-left-radius: 20px;
@@ -576,6 +575,7 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    object-fit: cover;
 }
 .team-background{
     width: 100%;
@@ -637,5 +637,27 @@ body{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+@media screen and (max-width:1000px){
+    .team-about-card{
+        width:46%;
+        margin-bottom: 7vh;
+    }
+}
+@media screen and (max-width:600px){
+    .team-about-card{
+        margin-bottom: 8vh;
+    }
+}
+@media screen and (max-width:500px){
+    .team-about-card{
+        width: 90%;
+        margin-bottom: 90px;
+    }
+}
 
+@media screen and (max-width:300px){
+    .team-about-card{
+        margin-bottom: 15vh;
+    }
 }
