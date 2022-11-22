@@ -498,6 +498,7 @@ body{
 
 /*---Styles for Team section in aboutus page---*/
 
+
 .team-about h1{
     font-family: oswald;
     font-size: 40px;
@@ -510,7 +511,7 @@ body{
     width: 10%;
     height: 2px;
     background-color: red;
-    margin-bottom: 7%;
+    margin-bottom: 30px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -521,26 +522,72 @@ body{
     justify-content: space-evenly;
 }
 .team-about-card{
-    width: 25%;
-    background-color: rgba(43, 43, 43, 0.452);
-    padding: 20px;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
+    height: auto;
+    width: 23%;
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+    box-sizing: border-box;
 }
-.team-about-card img{
+.team-about-card-content{
+    height: auto;
+    padding: 20px;
+    background-color: rgba(43, 43, 43, 0.452);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.team-about-card-background{
+    height: 40%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.team-about-card1 > .team-about-card-background{
+    background-image: url("Images/About Us/Our Team/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team-about-card2 > .team-about-card-background{
+    background-image: url("Images/About Us/Our Team/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team-about-card3 > .team-about-card-background{
+    background-image: url("Images/About Us/Our Team/background3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team-about-card4 > .team-about-card-background{
+    background-image: url("Images/About Us/Our Team/background4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team-about-profile-ring{
     width: 100px;
+    height: 100px;
     border-radius: 50%;
     position: relative;
     left: 50%;
-    transform: translateX(-50%);
-    bottom: 35%;
-    margin-bottom: 10px;
+    top: 100%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+    background-color: rgb(0, 110, 255);
+}
+.team-profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.team-background{
+    width: 100%;
+    height: 40%;
+    border-radius: 0%;
 }
 .team-about-card h2{
     font-size: 25px;
     text-align: center;
     margin-bottom: 5px;
-    margin-top: -70px;
+    margin-top: 40px;
+    color: gold;
 }
 .team-about-card h3{
     font-size: 18px;
@@ -552,13 +599,24 @@ body{
 .team-about-card p{
     font-size: 15px;
     text-align: center;
+    margin-bottom: 60px;
+    font-weight: lighter;
+}
+.team-about-card-underline{
+    content: "";
+    width: 90%;
+    height: 2px;
+    background-color: rgb(63, 63, 63);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .team-about-social{
     width: max-content;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .team-about-social i{
     letter-spacing: 15px;
@@ -569,4 +627,15 @@ body{
 .team-about-social i:hover{
     color: red;
     transition: 0.5s;
+}
+.team-about-card-btn{
+    padding: 10px 15px 10px 15px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    margin-top: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
