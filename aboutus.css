@@ -498,7 +498,6 @@ body{
 
 /*---Styles for Team section in aboutus page---*/
 
-
 .team-about h1{
     font-family: oswald;
     font-size: 40px;
@@ -527,6 +526,7 @@ body{
     backdrop-filter: blur(100px);
     border-radius: 20px;
     box-sizing: border-box;
+    margin-bottom: 120px;
 }
 .team-about-card-content{
     padding: 20px;
@@ -660,4 +660,16 @@ body{
     .team-about-card{
         margin-bottom: 15vh;
     }
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    background-color: rgba(37, 37, 37, 0.541);
 }

@@ -45,3 +45,30 @@ $('.vision-mission-about-btn1').click(function(){
     $('.mission-txt-about').fadeOut(0);
     $('.vision-txt-about').fadeIn(500);
 })
+
+/*---JS Part for Team Section---*/
+
+var swiper = new Swiper(".team-about-other", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        },
+        1000: {
+            slidesPerView: 3,
+        }
+    }
+  });
