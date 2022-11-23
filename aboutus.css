@@ -673,9 +673,13 @@ body{
     font-size: 18px;
     background-color: rgba(37, 37, 37, 0.541);
     height: auto;
+    width: 23%;
 }
 .team-about-other-card{
     margin-top: 60px;
+    width: 23%;
+    border-radius: 20px;
+    padding-bottom: 20px;
 }
 .team-about-other-card img{
     width: 100px;
@@ -694,4 +698,41 @@ body{
     padding: 5px;
     background-color: rgb(0, 110, 255);
     margin-bottom: -40px;
+}
+.team-about-other-card h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: gold;
+}
+.team-about-other-card h3{
+    font-size: 18px;
+    font-family:monospace;
+    color: blueviolet;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.team-about-other-card-underline{
+    content: "";
+    width: 90%;
+    height: 2px;
+    background-color: rgb(63, 63, 63);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
 }
