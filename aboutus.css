@@ -1002,7 +1002,7 @@ body{
     cursor: pointer;
     margin-top: 30px;
 }
-.fa-brands{
+.footer .fa-brands{
     padding-right: 40px;
 }
 .fa-brands:hover{
