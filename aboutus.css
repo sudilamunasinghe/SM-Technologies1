@@ -866,3 +866,155 @@ body{
     margin-bottom: 20px;
     margin-left: 3%;
 }
+
+/*---Styles for Footer---*/
+
+.footer{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    /* background-color: rgba(49, 49, 49, 0.253); */
+    background-color: black;
+}
+.footer-divs{
+    width: 22.5%;
+    height: auto;
+}
+.footer-div1 h1{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left; 
+}
+.footer-div1 p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(209, 209, 209);
+}
+.footer-div2 h1{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.footer-div2 a{
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+    font-family: sans-serif;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.footer-div2 a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+.footer ul{
+    padding-left: 0;
+}
+.footer li{
+    list-style: none;
+    padding: 15px 0px 15px 0px;
+}
+.footer-div3 h1{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.footer-div3 p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(209, 209, 209);
+}
+.fa-location-dot{
+    padding-right: 10px;
+    color: red;
+}
+.fa-phone{
+    padding-right: 5px;
+    color: red;
+}
+.fa-envelope-footer{
+    padding-right: 10px;
+    color: red;
+}
+.footer-div4 h1{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.footer-div4 p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(209, 209, 209);
+}
+.news-letter{
+    padding: 10px;
+    width: 80%;
+    background-color: rgba(37, 37, 37, 0.459);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.footer-subscribe-btn{
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid red;
+    font-size: 20px;
+    clip-path: polygon(0% 0%, 100% 3%, 100% 73%, 88% 100%, 0% 100%);
+    cursor: pointer;
+    position: relative;
+    bottom: 0px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.footer-subscribe-btn:hover{
+    background-color: rgb(185, 0, 0);
+    border: 2px solid rgb(185, 0, 0);
+    transition:0.2s;
+    bottom: 5px;
+    cursor: pointer;
+}
+.footer-social{
+    display: flex;
+    flex-flow: wrap;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.fa-brands{
+    padding-right: 40px;
+}
+.fa-brands:hover{
+    color: red;
+    transition: 0.5s;
+}
+.footer-div{
+    margin-bottom: 0;
+}
+.footer-div p{
+    text-align: center;
+    font-family: sans-serif;
+    /* background-color: rgba(0, 0, 0, 0.459); */
+    background-color: rgba(49, 49, 49, 0.253);
+    padding: 15px 0px 15px 0px;
+    margin: 0;
+}
+@media screen and (max-width:850px){
+    .footer-divs{
+        width: 45%;
+    }
+}
+@media screen and (max-width:450px){
+    .footer-divs{
+        width: 90%;
+    }
+}
