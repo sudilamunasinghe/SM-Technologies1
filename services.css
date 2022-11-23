@@ -112,7 +112,7 @@ body{
 .sidenav ul i{
     padding-right: 10px;
 }
-#active_a{
+#active a{
     color: black;
 }
 #close{
@@ -135,6 +135,7 @@ body{
         display: none;
     }
 }
+
 
 .img-text{
     background-color: rgba(0, 0, 0, 0.637);

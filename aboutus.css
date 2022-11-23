@@ -111,7 +111,10 @@ body{
 .sidenav ul i{
     padding-right: 10px;
 }
-#active_a{
+#active a{
+    color: black;
+}
+#active i{
     color: black;
 }
 #close{
