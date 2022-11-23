@@ -14,6 +14,126 @@ body{
     overflow-x: hidden;
     background-color: black;
 }
+/*Navigation Bar*/
+.content-container{
+    display: flex;
+}
+.navbar{
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+}
+.navbar ul{
+    float: right;
+    background-color: rgb(46, 46, 46);
+    width: 100%;
+    height: auto;
+    text-align: right;
+    padding: 20px 0 20px 0;
+    margin-top: 0;
+}
+.navbar li{
+    list-style: none;
+    display: inline;
+    padding: 30px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:sans-serif;
+    background-color: transparent;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.navbar li a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+#active{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+.navbar ul i{
+    float: left;
+    padding-left: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+/*Side Navigation Bar*/
+.sidenav{
+    width: 230px;
+    height: 100vh;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: translateX(-100%);
+    position: fixed;
+    z-index: 3;
+    /* position:relative;
+    z-index: -1; */
+}
+.side-content{
+    display: none;
+    transition: 0.5s;
+}
+.sidenav ul{
+    padding-left: 0;
+    padding-top: 0;
+    
+}
+.sidenav ul li{
+    list-style: none;
+    padding: 20px 0px 20px 30px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.sidenav ul li:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sidenav ul li:hover a{
+    color: black;
+}
+
+.sidenav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.sidenav ul i{
+    padding-right: 10px;
+}
+#active_a{
+    color: black;
+}
+#close{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 20px 0 0px 30px;
+    cursor: pointer;
+    display: none;
+}
+#bar{
+    font-size: 30px;
+    padding: 0px 0 0px 25px;
+}
+
+@media screen and (max-width:875px){
+    .navbar ul i{
+        display: block;
+    }
+    .navbar ul li{
+        display: none;
+    }
+}
 .main-content img{
     width: 100%;
     height: 500px;
