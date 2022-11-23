@@ -50,12 +50,18 @@ $('.vision-mission-about-btn1').click(function(){
 
 var swiper = new Swiper(".team-about-other", {
     slidesPerView: 3,
-    spaceBetween: 30,
-    freeMode: true,
+    spaceBetween: 25,
+    centerSlide: 'true',
+    fade: 'true',
+    // freeMode: true,
     pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
+        el: ".swiper-pagination",
+        type: "fraction",
+        // clickable: true,
+        // renderBullet: function (index, className) {
+        //   return '<span class="' + className + '">' + (index + 1) + "</span>";
+        // },
+      },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
